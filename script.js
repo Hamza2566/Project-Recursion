@@ -1,45 +1,45 @@
 // this is for the for loop part
-// let array = []
-// console.log(array);
+let array = []
+console.log(array);
 
-// function fibo(num) {
-//  let a = 0
-//  let b = 1
-//  if (num === a) {return a}
-//  if (num === b) {return b}
+function fibo(num) {
+ let a = 0
+ let b = 1
+ if (num === a) {return a}
+ if (num === b) {return b}
 
-//  array.push(a,b)
-//  console.log(a);
-//  console.log(b);
+ array.push(a,b)
+ console.log(a);
+ console.log(b);
 
-//  for (let i = 2; i <= num; i++) {
-//     const element = a + b
-//     console.log(element);
-//     array.push(element)
-//     a = b
-//     b = element
-//  }}
+ for (let i = 2; i <= num; i++) {
+    const element = a + b
+    console.log(element);
+    array.push(element)
+    a = b
+    b = element
+ }}
 
-// fibo(3)
+fibo(3)
 
 // this is for the recursive part
-// function fiborecursion(num) {
-//     if (num === 1) {
-//         return num;
-//         }
-//     if (num === 0) {
-//         return num;
-//         }
-//         else{
+function fiborecursion(num) {
+    if (num === 1) {
+        return num;
+        }
+    if (num === 0) {
+        return num;
+        }
+        else{
 
-//             let result =   (fiborecursion(num - 1) + fiborecursion(num - 2))
-//             return result
+            let result =   (fiborecursion(num - 1) + fiborecursion(num - 2))
+            return result
 
-//         }
+        }
 
 
-// }
-// console.log(fiborecursion(4));
+}
+console.log(fiborecursion(4));
 
 // // this is the merge sort part
 let unsorted = [3, 2, 1, 13, 8, 5, 0, 1]
